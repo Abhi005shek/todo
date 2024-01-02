@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 3rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.links ul{
+  display: flex;
+  gap: 1.6rem;
+}
+
+.links li{
+  list-style: none;
+  text-decoration: none;
+}
+
+.navlink{
+  text-decoration: none;
+  color: black;
+}
+
+
+.login{
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  /* border: 1px solid; */
+  width: 30%;
+  overflow: hidden;
+}
+
+.login input, button {
+  padding: .8rem;
+  margin-bottom: 1.5rem;
+  display: block;
+  /* width: 100%; */
+}
+
+.login input{
+  width: 92%;
+}
+
+.login button{
+  width: 100%;
+  background-color: rgb(13, 180, 13);
+  border: none;
+}
